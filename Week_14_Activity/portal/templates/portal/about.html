@@ -1,0 +1,36 @@
+{% extends 'portal/base.html' %}
+
+{% block title %}About | CCS Student Portal{% endblock %}
+
+{% block content %}
+<section class="content-card">
+    <h1>About the CCS Student Portal</h1>
+    
+    <h2>Portal Purpose</h2>
+    <p>
+        The CCS Student Portal was developed to streamline communication between the College of Computer Studies 
+        and its student body. Instead of searching across multiple bulletin boards or social media pages, students 
+        can access verified academic updates and resources in one unified web application.
+    </p>
+
+    <h2>Intended Users</h2>
+    <p>
+        This portal is designed primarily for <strong>undergraduate Computer Science and Information Technology students</strong>, 
+        as well as <strong>department faculty members and academic advisers</strong> who share course materials and notices.
+    </p>
+
+    <h2>Accessibility Features Implemented</h2>
+    <ul>
+        <li>
+            <strong>High-Contrast Color Palette:</strong> Text and background combinations exceed WCAG AA contrast standards 
+            (dark slate <code>#1e293b</code> on off-white <code>#f8fafc</code>, and crisp white on deep navy <code>#163a54</code>).
+        </li>
+        <li>
+            <strong>Keyboard-Friendly Navigation & Focus Indicators:</strong> Includes a hidden "Skip to main content" link for keyboard users and high-visibility focus outlines (<code>#ffdb70</code>) on all interactive links.
+        </li>
+        <li>
+            <strong>Semantic HTML & Descriptive Alt Text:</strong> Uses semantic landmark elements (<code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code>) and meaningful <code>alt</code> attributes for screen readers.
+        </li>
+    </ul>
+</section>
+{% endblock %}
